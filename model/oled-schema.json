@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "oled",
+    "title": "OLED",
+    "description": "POST close/clean command to LED",
+    "type": "object",
+    "properties" : {
+      "OLED_stat": {
+           "type": "boolean"
+        },
+        "oled_display": {
+        "type": "string",
+        "maxLength": 3
+      }
+    },
+    "required": ["OLED_stat"]
+}
